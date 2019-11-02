@@ -1,2 +1,8 @@
-# Create method `parrot` that outputs a given phrase and
-# returns the phrase
+def parrot (*string)
+  if string.empty?
+    puts "Squawk!"
+    return "Squawk!"
+  elsif string.empty? == false 
+    return puts string
+  end 
+end 
