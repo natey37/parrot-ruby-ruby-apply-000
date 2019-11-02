@@ -3,6 +3,6 @@ def parrot (*string)
     puts "Squawk!"
     return "Squawk!"
   elsif string.empty? == false 
-    return puts string
+    return string
   end 
 end 
