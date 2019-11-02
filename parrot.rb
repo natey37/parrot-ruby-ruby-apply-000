@@ -3,6 +3,6 @@ def parrot (*string)
     puts "Squawk!"
     return "Squawk!"
   elsif string.empty? == false 
-    return string
+    return string.join
   end 
 end 
